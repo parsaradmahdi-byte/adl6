@@ -264,7 +264,7 @@ public class MainActivity extends Activity {
 
         void drawCaseOne(Canvas c){
             int step=Math.min(storyStep,3);
-            Bitmap person = step==0 ? amirStanding : (step==1 ? amirSeated : (step==2 ? amirDocuments : amirOffer));
+            Bitmap person = step==0 ? amirStanding : (step==1 ? amirSeated : (step==2 ? amirDocuments : amirFile));
             float h = step==0 ? 760 : 430;
             drawCharacter(c,person,880,1510,h);
 
